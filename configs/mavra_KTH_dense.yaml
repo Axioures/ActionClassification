@@ -1,0 +1,78 @@
+paths:
+    root: /rmt8/mobot/experiments/nikos
+    db: /rmt8/databases/KTH/
+    db_data: /home/nick/action_nick/data/
+    code: /home/nick/action_nick/Code_v0.2/
+    yael: /rmt8/mobot/external_packages/yael/yael_v438/matlab/
+    LibSvm: /rmt8/mobot/external_packages/libsvm-3.17/matlab/
+    vlfeat: /rmt8/mobot/external_packages/vlfeat-0.9.19/
+    #features: /rmt8/mobot/experiments/nikos/features/KTH/
+    features: /rmt6/nikos/features/Hollywood2/dense/
+
+DEBUG: 0
+dbName: KTH
+global_seed: 25
+
+# feature parameters
+#features:
+#    type: DT
+#    executable: /rmt8/mobot/external_packages/dense_trajectories/dense_trajectory_release_v1.2/release/DenseTrack
+#    libs: /rmt8/mobot/external_packages/opencv/lib/:/rmt8/mobot/external_packages/ffmpeg/ffmpeg_build/lib/
+#    descriptors: [Traj, HOG, HOF, MBHx, MBHy, MBH]
+#    L: 15 # trajectory length
+#    W: 5 # sampling stride
+#    N: 32 # neighbourhood size
+#    s: 2 # number of spatial cells
+#    t: 3 # number of temporal cells
+#    save2disk: 1
+    
+# encoding parameters
+encoding:
+    type: BoVW # possible options are BoVW, vlad or fisher
+    K: 4000 # number of visual words for either kmeans or gmm
+    data_usage: 100000 # data used for codebook generation as percentage of TrainData
+    pca_factor: 1
+    num_seeds: 1 # number of k-means repetitions with different (random) initializations (seeds)
+
+# spatio-temporal pyramids parameters    
+#grids:
+#    - {h: 1, v: 1, t: 1}
+#    - {h: 3, v: 1, t: 1}
+#    - {h: 2, v: 2, t: 1}
+#    - {h: 1, v: 1, t: 2}
+#    - {h: 3, v: 1, t: 2}
+#    - {h: 2, v: 2, t: 2}
+
+# classification parameters
+classification:
+    svm_cost: 100
+    kernel: ChiSquared
+    combine: 1
+    combine_descriptors: [Traj, HOG, HOF, MBHx, MBHy]
+    
+# possible reusage of elements
+reuse:
+    features: 1
+
+## states
+# 0: nothing has been done
+# 1: codebook has been generated
+# 2: encodings have been computed
+# 2.5: kernels have been computed (does not apply to Linear kernel)
+# 3: SVMs have been trained
+# 4: testinghas been done
+state: 0
+
+
+features:
+    type: dense
+    executable: /rmt8/mobot/external_packages/stip-2.0-linux/bin/stipdet
+    libs: /rmt8/mobot/external_packages/opencv/lib/:/rmt8/mobot/external_packages/ffmpeg/ffmpeg_build/lib/
+    descriptors: [HOG, HOF]
+    nplev: 3 # number of scales
+    plev0: 0 # first scale
+    szf: 18 # patch size's spatial factor
+    tzf: 4 # patch size's temporal factor
+    save2disk: 0
+   # the following flag is experimental, use only with Hollywood2 dataset, and not in a parfor loop!
+#   use_disk: 1
