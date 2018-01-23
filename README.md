@@ -12,8 +12,8 @@ Running an experiment is as simple as excecuting the following command under MAT
 where config_file.yaml is a string contaning the experiment's configuration file filename (full path would be nice). The configuration file conforms to the yaml fomat.
 The above libraries' path, as well are the rest of parameters are defined in the configuration file.
 You can find sample configuration files for MOBOT-PC and mavra in the "configs" folder.
-For example, on MOBOT PC you can run:
->> runExperiment('/home/nick/SVNfolder/action_nick/Code_v0.2/configs/configMain_DT_HMDB_mobotpc.yaml')
+For example, you can run:
+>> runExperiment('/home/vagelis/ActionClassification/configs/configMain_DT_HMDB_mobotpc.yaml')
 
 Thus running the experiment is all about writing the configuration file.
 There is a template file (configs/configMain_TEMPLATE_DT_KTH_mobotpc.yaml) where all the parameters involved are explained.
