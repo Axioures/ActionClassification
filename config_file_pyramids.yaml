@@ -1,0 +1,66 @@
+
+paths:
+    root: /home/vagelis/Action_Recognition/Experiments_ActionClassif
+    db: /home/vagelis/Action_Recognition/Databases/KTH
+    db_data: /home/vagelis/Action_Recognition/db_data/KTH
+    code: /home/vagelis/Action_Recognition/Code_v0.2
+    yael: /home/vagelis/Action_Recognition/External_Packages/yael_v438/matlab
+    LibSvm: /home/vagelis/Action_Recognition/External_Packages/libsvm-3.21/matlab/
+    # features: /home/nick/Desktop/Experiments_ActionClassif/DT_L15_N32_s2_t3_BoVW_g0_K4000_data100000_pca1.00_s25/HMDB51/features/
+
+DEBUG: 0
+dbName: KTH
+global_seed: 25
+
+# feature parameters
+features:
+    type: DT
+    executable: /home/vagelis/Action_Recognition/External_Packages/dense_trajectory_release_v1.2/release/DenseTrack
+    libs: /usr/local/lib/
+    descriptors: [Traj, HOG, HOF, MBHx, MBHy, MBH]
+    L: 15 # trajectory length
+    W: 5 # sampling stride
+    N: 32 # neighbourhood size
+    s: 2 # number of spatial cells
+    t: 3 # number of temporal cells
+    save2disk: 1
+    
+# encoding parameters
+encoding:
+    type: BoVW # possible options are BoVW, vlad or fisher
+    K: 4000 # number of visual words for either kmeans or gmm
+    data_usage: 100000 # data used for codebook generation as percentage of TrainData
+    pca_factor: 1
+    num_seeds: 1 # number of k-means repetitions with different (random) initializations (seeds)
+
+# spatio-temporal pyramids parameters    
+grids:
+    - {h: 1, v: 1, t: 1}
+    - {h: 3, v: 1, t: 1}
+    - {h: 2, v: 2, t: 1}
+    - {h: 1, v: 1, t: 2}
+    - {h: 3, v: 1, t: 2}
+    - {h: 2, v: 2, t: 2}
+
+# classification parameters
+classification:
+    svm_cost: 100
+    kernel: ChiSquared
+    combine: 1
+    combine_descriptors: [Traj, HOG, HOF, MBHx, MBHy]
+    
+# possible reusage of elements
+reuse:
+    features: 1
+    codebooks: 1
+    encodings: 1
+
+## states
+# 0: nothing has been done
+# 1: codebook has been generated
+# 2: encodings have been computed
+# 2.5: kernels have been computed (does not apply to Linear kernel)
+# 3: SVMs have been trained
+# 4: testinghas been done
+state: 2
+

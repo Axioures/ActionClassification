@@ -1,0 +1,96 @@
+function [] = svm_training_wrapper(params, annotation)
+	switch params.classification.kernel
+		case 'Linear'
+			train_linear_svm(params);
+		otherwise
+			compute_dist(params.classification.kernel, params.paths.training, params.channels);
+			compute_kernels(params.features.descriptors, params.channels, params.classification.combine_descriptors, params.paths.training);
+			multichannel_svm_train(params, annotation);		
+	end
+end
+
+function compute_dist(type, path, channels)
+	c = channels;
+	for i=1:length(c)
+		msg_size = fprintf('Computing distances: channel %d/%d (%s)', i, length(c), c(i).name);
+		encoded_features = parload(fullfile(path, sprintf('encoded_features_%s.mat', c(i).name)));
+		switch type
+			case 'ChiSquared'
+				dist = distChiSq(encoded_features, encoded_features);
+				normalization = mean(dist(:)) + eps;
+			otherwise
+				error('Unsupported kernel type: %s', type);
+		end
+		parsave(fullfile(path, sprintf('dist_%s', c(i).name)), dist);
+		parsave(fullfile(path, sprintf('norm_%s', c(i).name)), normalization);
+		erase_msg(msg_size, i==length(c));
+	end
+end
+
+function compute_kernels(descriptors, channels, combine_descriptors, path)
+	c = channels;
+	d = descriptors;
+	fd = combine_descriptors;
+	tmp = parload(fullfile(path, sprintf('dist_%s.mat', c(1).name)));
+	sz = size(tmp, 1);
+	
+	c_kernel = zeros(sz);
+	for id = 1:length(d)
+		msg_size = fprintf('Computing kernels: descriptor %d/%d (%s)', id, length(d), d{id});
+		d_kernel = zeros(sz);
+		cc = c(find(strcmp({c.descriptor}, d{id})));
+		for icc = 1:length(cc)
+			dist = parload(fullfile(path, sprintf('dist_%s.mat', cc(icc).name)));
+			n = mean(dist(:)) + eps;
+			d_kernel = d_kernel + exp( - dist / n );
+			
+			if any(strcmp(cc(icc).descriptor, d))
+				c_kernel = c_kernel + exp( - dist / n );
+			end
+		end
+		kernel = d_kernel;
+		parsave(fullfile(path, sprintf('kernel_%s.mat', d{id})), kernel);
+		erase_msg(msg_size, id==length(d));
+	end
+	kernel = c_kernel;
+	parsave(fullfile(path, sprintf('kernel_combined.mat')), kernel);
+end
+
+function multichannel_svm_train(params, annotation)
+	if exist('svm_savemodel') % there is a MEX file (it should return 3)
+		fprintf('Note: "svm_savemodel" is available. SVMs will be saved in libsvm format in $TRAINING_PATH$/models_libsvm_format/.\n');
+		libsvm_format = true;
+	else
+		fprintf('Note: "svm_savemodel" is *not* available. SVMs will be saved in MATLAB format only.\n');
+		libsvm_format = false;
+	end
+	
+	d = params.features.descriptors;
+	if params.classification.combine
+		d{end+1} = 'combined';
+	end
+	for id = 1:length(d)
+		kernel = parload(fullfile(params.paths.training, sprintf('kernel_%s.mat', d{id})));
+		models = multiclasss_svm_train(kernel, annotation, params.classification.svm_cost);
+		parsave(fullfile(params.paths.training, sprintf('models_%s.mat', d{id})), models);
+		if libsvm_format
+			output_path = fullfile(params.paths.training, 'models_libsvm_format', d{id});
+			checkPaths(output_path, 'create');
+			for i=1:length(models)
+				model_file = fullfile(output_path, sprintf('model%d', i));
+				svm_savemodel(models{i}, model_file);
+			end
+		end
+	end
+end
+
+function models = multiclasss_svm_train(kernel, annotation, cost)
+	classes = unique(annotation);
+	K = [ (1:size(kernel,1))' , kernel ];
+	parameters = ['-t 4 -b 1 -q -c ' num2str(cost)];
+	models = cell(length(classes), 1); 
+	for c = 1:length(classes)
+		oneVSall = annotation==c;
+		models{c} = svmtrain(double(oneVSall), K, parameters);
+	end
+end

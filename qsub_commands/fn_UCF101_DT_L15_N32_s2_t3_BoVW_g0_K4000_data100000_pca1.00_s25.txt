@@ -1,0 +1,399 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([1:101]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([102:201]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([202:301]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([302:401]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([402:501]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([502:601]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([602:701]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([702:801]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([802:901]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([902:1001]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([1002:1101]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([1102:1201]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([1202:1301]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([1302:1401]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([1402:1501]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([1502:1601]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([1602:1701]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([1702:1801]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([1802:1901]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([1902:2001]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([2002:2101]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([2102:2201]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([2202:2301]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([2302:2401]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([2402:2501]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([2502:2601]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([2602:2701]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([2702:2801]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([2802:2901]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([2902:3001]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([3002:3101]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([3102:3201]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([3202:3301]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([3302:3401]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([3402:3501]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([3502:3601]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([3602:3701]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([3702:3801]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([3802:3901]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([3902:4001]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([4002:4101]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([4102:4201]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([4202:4301]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([4302:4401]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([4402:4501]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([4502:4601]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([4602:4701]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([4702:4801]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([4802:4901]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([4902:5001]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([5002:5101]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([5102:5201]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([5202:5301]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([5302:5401]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([5402:5501]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([5502:5601]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([5602:5701]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([5702:5801]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([5802:5901]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([5902:6001]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([6002:6101]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([6102:6201]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([6202:6301]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([6302:6401]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([6402:6501]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([6502:6601]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([6602:6701]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([6702:6801]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([6802:6901]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([6902:7001]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([7002:7101]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([7102:7201]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([7202:7301]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([7302:7401]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([7402:7501]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([7502:7601]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([7602:7701]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([7702:7801]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([7802:7901]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([7902:8001]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([8002:8101]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([8102:8201]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([8202:8301]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([8302:8401]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([8402:8501]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([8502:8601]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([8602:8701]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([8702:8801]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([8802:8901]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([8902:9001]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([9002:9101]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([9102:9201]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([9202:9301]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([9302:9401]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([9402:9501]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([9502:9601]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([9602:9701]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([9702:9801]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([9802:9901]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([9902:10001]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([10002:10101]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([10102:10201]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([10202:10301]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([10302:10401]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([10402:10501]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([10502:10601]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([10602:10701]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([10702:10801]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([10802:10901]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([10902:11001]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([11002:11101]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([11102:11201]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([11202:11301]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([11302:11401]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([11402:11501]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([11502:11601]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([11602:11701]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([11702:11801]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([11802:11901]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([11902:12001]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([12002:12101]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([12102:12201]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([12202:12301]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([12302:12401]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([12402:12501]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([12502:12601]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([12602:12701]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([12702:12801]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([12802:12901]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([12902:13001]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([13002:13101]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([13102:13201]), 3);exit"
+/rmt8/mobot/external_packages/MATLAB/R2014a/bin/matlab -nodesktop -nosplash -r "addpath(genpath('/home/nick/action_nick/Code_v0.2/'));params = config_parser('/home/nick/action_nick/Code_v0.2/configs/mavra_UCF101_DT.yaml');db_params = configUCF101(params.paths);cd('/rmt6/nikos/features/UCF101');minimal_encoding(params, db_params.clips([13202:13320]), 3);exit"
