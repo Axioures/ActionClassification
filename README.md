@@ -1,4 +1,4 @@
-# ActionClassification
+# Action Classification
 
 This is the root path of the action classification code.
 The whole system has the following package dependences:
